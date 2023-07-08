@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    background-color: aqua;
+
+}
+#nav{
+    background-color: antiquewhite;
+    border-top: 1px solod #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#nav ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+#nav{
+    float: left;
+}
+#nav ul a{
+    display: block;
+    width: 9em;
+    padding: 10px;
+    border-left:  1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+#nav ul li{
+    border-right: 1px solid #ccc ;
+}
+#nav ul a:hover{
+    background-color: #aaa;
+    color: antiquewhite;
+}
